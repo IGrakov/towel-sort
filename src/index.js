@@ -10,7 +10,7 @@ module.exports = function towelSort (matrix = []) {
             matrix[i].sort((a, b) => b - a);
         }
         // adding raw to resulting matrix
-        resArr.concat(matrix[i]);
+        resArr = resArr.concat(matrix[i]);
     }
 
     return resArr;
