@@ -1,4 +1,4 @@
-module.exports = function towelSort (matrix) {
+module.exports = function towelSort (matrix = []) {
     let resArr = [];
 
     for (let i = 0; i < matrix.length; i++) {
